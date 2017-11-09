@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>User Login Form | KodingMadeSimple.com</title>
+	<title>User Login Form</title>
 	<link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.css"); ?>">
 </head>
 <body>
@@ -57,7 +57,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-4 col-md-offset-4 text-center">	
+		<div class="col-md-4 col-md-offset-4 text-center">
 		New User? <a href="<?php echo base_url(); ?>index.php/signup">Sign Up Here</a>
 		</div>
 	</div>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home Page | KodingMadeSimple.com</title>
+	<title>Home Page</title>
 	<!--link the bootstrap css file-->
 	<link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.css"); ?>">
 </head>
