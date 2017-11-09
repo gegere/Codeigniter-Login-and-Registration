@@ -1,5 +1,5 @@
 <?php
-class home extends CI_Controller
+class Home extends CI_Controller
 {
 	public function __construct()
 	{
@@ -7,12 +7,12 @@ class home extends CI_Controller
 		$this->load->helper(array('url', 'html'));
 		$this->load->library('session');
 	}
-	
+
 	function index()
 	{
 		$this->load->view('home_view');
 	}
-	
+
 	function logout()
 	{
 		// destroy session

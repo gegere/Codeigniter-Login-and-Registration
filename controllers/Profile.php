@@ -1,5 +1,5 @@
 <?php
-class profile extends CI_Controller
+class Profile extends CI_Controller
 {
 	public function __construct()
 	{
@@ -9,7 +9,7 @@ class profile extends CI_Controller
 		$this->load->database();
 		$this->load->model('user_model');
 	}
-	
+
 	function index()
 	{
 		$details = $this->user_model->get_user_by_id($this->session->userdata('uid'));
