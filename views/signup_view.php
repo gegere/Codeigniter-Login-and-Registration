@@ -70,7 +70,6 @@
 
 			<div class="form-group">
 				<button name="submit" type="submit" class="btn btn-info">Signup</button>
-				<button name="cancel" type="reset" class="btn btn-info">Cancel</button>
 			</div>
 			<?php echo form_close(); ?>
 			<?php echo $this->session->flashdata('msg'); ?>
