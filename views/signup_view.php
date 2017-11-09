@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>User Signup Form</title>
 	<link href="<?php echo base_url("assets/css/bootstrap.css"); ?>" rel="stylesheet" type="text/css" />
@@ -36,19 +37,19 @@
 			<?php $attributes = array("name" => "signupform");
 			echo form_open("signup/index", $attributes);?>
 			<legend>Signup</legend>
-			
+
 			<div class="form-group">
 				<label for="name">First Name</label>
 				<input class="form-control" name="fname" placeholder="Your First Name" type="text" value="<?php echo set_value('fname'); ?>" />
 				<span class="text-danger"><?php echo form_error('fname'); ?></span>
-			</div>			
-		
+			</div>
+
 			<div class="form-group">
 				<label for="name">Last Name</label>
 				<input class="form-control" name="lname" placeholder="Last Name" type="text" value="<?php echo set_value('lname'); ?>" />
 				<span class="text-danger"><?php echo form_error('lname'); ?></span>
 			</div>
-		
+
 			<div class="form-group">
 				<label for="email">Email ID</label>
 				<input class="form-control" name="email" placeholder="Email-ID" type="text" value="<?php echo set_value('email'); ?>" />
@@ -76,7 +77,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-4 col-md-offset-4 text-center">	
+		<div class="col-md-4 col-md-offset-4 text-center">
 		Already Registered? <a href="<?php echo base_url(); ?>index.php/login">Login Here</a>
 		</div>
 	</div>
