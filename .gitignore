@@ -1,0 +1,59 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.viminfo
+
+/data
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# JetBrains IDE #
+######################
+# Ref https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+bower_components
+node_modules
+npm-debug.log
+dist
+vendor
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# cPanel #
+######################
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.ssh/
+access-logs
+logs/
+tmp/
